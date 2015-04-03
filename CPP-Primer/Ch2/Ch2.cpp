@@ -37,10 +37,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	int c = ld;
 	
 	extern int i; // declares but does not define i
-	int j; // declares and defines j
+	int jk; // declares and defines jk
 	
 //	printf("i = %d", i); //error LNK2001: unresolved external symbol "int i" (?i@@3HA)
-//	printf("j = %d", j); //rutime check error
+//	printf("jk = %d", j); //rutime check error
 	printf("jj = %d", jj);
 
 // 	extern double pi = 3.1416; //error C2205: 'pi' : cannot initialize extern variables with block scope  
@@ -48,10 +48,23 @@ int _tmain(int argc, _TCHAR* argv[])
 	int z = ::f;
 
 	int ival = 1024;
-	int &refval = ival;
-//	int &refval2; //error C2530: 'refval2' : references must be initialized
+	int& refval = ival;
+//	int& refval2; //error C2530: 'refval2' : references must be initialized
 
+	int ik = 42;
+	int* pik;
+	int*& rpik = pik;
+	rpik = &ik;
+	*rpik = 0;
 
+	/* Not support in VS2013
+	constexpr int *np = nullptr; // np is a constant pointer to int that is	null
+	int j = 0;
+	constexpr int i = 42; // type of i is const int
+	// i and j must be defined outside any function
+	constexpr const int *p = &i; // p is a constant pointer to the const int i
+	constexpr int *p1 = &j; // p1 is a constant pointer to the int j
+	*/
 	return 0;
 }
 
