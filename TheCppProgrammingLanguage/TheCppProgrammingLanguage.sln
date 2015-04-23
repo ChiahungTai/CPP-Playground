@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter6-TypesDeclarations", "Chapter6-TypesDeclarations\Chapter6-TypesDeclarations.vcxproj", "{1EBE8B54-C696-4876-B503-1A55D1B79978}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter7-PointerArrayReference", "Chapter7-PointerArrayReference\Chapter7-PointerArrayReference.vcxproj", "{DF07A42B-A1A8-4BFC-A0C2-CAE26E96358A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter8-StructuresUnionsEnumerations", "Chapter8-StructuresUnionsEnumerations\Chapter8-StructuresUnionsEnumerations.vcxproj", "{1A8D8791-FE49-4B8E-A1AD-73D9D6F97FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{1EBE8B54-C696-4876-B503-1A55D1B79978}.Debug|Win32.Build.0 = Debug|Win32
 		{1EBE8B54-C696-4876-B503-1A55D1B79978}.Release|Win32.ActiveCfg = Release|Win32
 		{1EBE8B54-C696-4876-B503-1A55D1B79978}.Release|Win32.Build.0 = Release|Win32
+		{DF07A42B-A1A8-4BFC-A0C2-CAE26E96358A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF07A42B-A1A8-4BFC-A0C2-CAE26E96358A}.Debug|Win32.Build.0 = Debug|Win32
+		{DF07A42B-A1A8-4BFC-A0C2-CAE26E96358A}.Release|Win32.ActiveCfg = Release|Win32
+		{DF07A42B-A1A8-4BFC-A0C2-CAE26E96358A}.Release|Win32.Build.0 = Release|Win32
+		{1A8D8791-FE49-4B8E-A1AD-73D9D6F97FEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A8D8791-FE49-4B8E-A1AD-73D9D6F97FEC}.Debug|Win32.Build.0 = Debug|Win32
+		{1A8D8791-FE49-4B8E-A1AD-73D9D6F97FEC}.Release|Win32.ActiveCfg = Release|Win32
+		{1A8D8791-FE49-4B8E-A1AD-73D9D6F97FEC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
